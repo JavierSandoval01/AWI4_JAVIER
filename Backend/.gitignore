@@ -1,0 +1,29 @@
+# Node modules
+**/node_modules/
+
+# Compilación TypeScript
+**/dist/
+**/build/
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Entorno de desarrollo
+.env
+.env.*.local
+
+# Cache de VSCode
+.vscode/
+
+# Otros posibles
+*.tsbuildinfo
+.expo/
+
+# Salidas de ts-node-dev
+**/*.js
